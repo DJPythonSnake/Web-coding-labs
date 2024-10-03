@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donetsk info</title>
+</head>
+<style>
+
+    /* Style the tab */
+    p {
+        color: #ccc;
+    }
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .tabcontent h3{
+        color: #ccc;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .photo {
+        width: 400px;
+        height: 200px;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+    }
+
+    /* Add rounded corners to the top left and the top right corner of the image */
+    img {
+        border-radius: 5px 5px 0 0;
+    }
+    .FIO {
+        color: #ccc;
+    }
+
+</style>
+<body style="background-color: #1c1c1c;">
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openPage(event, 'Main')">Главная</button>
+        <button class="tablinks" onclick="openPage(event, 'History')">История</button>
+        <button class="tablinks" onclick="openPage(event, 'Developer')">Об разработчике</button>
+        <button class="tablinks" onclick="openPage(event, 'Connect')">Обратная связь</button>
+    </div>
+    
+    <!-- Tab content -->
+    <div id="Main" class="tabcontent">
+        <h3>Донецк</h3>
+        <p>Доне́цк (до 1924 — Юзовка, до 1929 — Сталин, до 1961 — Сталино) — город республиканского значения на юго-востоке Донецкой Народной Республики, 
+        административный центр одноимённого городского округа на реке Кальмиус, столица Донецкой Народной Республики.
+        Договор между Донецкой Народной Республикой и Российской Федерацией от 30.09.2022 года определяет территорию Донецкой Народной Республики, 
+        включая город республиканского значения Донецк, как новый субъект в составе Российской Федерации.</p>
+        <img class="photo" src="7yAQTD7yCM8.jpg" alt="">
+        <img class="photo" src="dWXnKJnW9XY.jpg" alt="">
+        <img class="photo" src="a66_aEU0-Kc.jpg" alt="">
+        <img class="photo" src="Dpi54Yxh4s0.jpg" alt="">
+    </div>
+    
+    <div id="Developer" class="tabcontent">
+        <div class="card">
+            <img src="photo_2024-09-01_23-48-36.jpg" alt="Avatar" style="width: 250px; height: 500px;">
+            <div class="container">
+              <h4 class="FIO"><b>Якименко Роман</b></h4>
+              <p>Студент 3-го курса ИВТ-1(Иногда ленивый, хы)</p>
+              <p>Неплохо освоил Python, написал браузер на С++, умею программировать телеграм-ботов, увлекаюсь Linux-системами</p>
+            </div>
+          </div>
+    </div>
+    
+    <div id="Connect" class="tabcontent">
+        <h3>Соцсети</h3>
+        <p>Telegram: <a href="https://t.me/WhiteYaki">*тык*</a></p>
+        <p>VK: <a href="https://vk.com/whiteyaki">*тык*</a></p>
+    </div>
+    <div id="History" class="tabcontent">
+        <p>В 1869 году валлийцем Джоном Хьюзом (англ. John Hughes) начинается строительство металлургического завода с рабочим посёлком Юзовка (Юзово) 
+            Бахмутского уезда Екатеринославской губернии[24]. Дату постройки посёлка принято считать временем основания города Донецка. Юзовка делилась 
+            на две части — заводская и «Новый свет». Центральная часть города развивалась вдоль направления на север от металлургического завода к 
+            железнодорожной станции.
+
+            В 1889 году к югу от Юзовки был сооружён машиностроительный и чугунолитейный завод Э. Т. Боссе и Р. Г. Геннефельда, 
+            мастерская по ремонту горно-шахтного оборудования — ныне Рутченковский машиностроительный завод. В 1916 году построены два коксохимических завода, 
+            а в 1917 — первый в Российской империи азотный завод — ныне Донецкий завод химреактивов.
+            
+            С быстрым развитием производственных сил, образованием крупных промышленных предприятий 
+            стремительно росло население Юзовки. В 1917 году посёлок Юзовка получил статус города.
+            
+            Областной центр
+            В составе Украинской Советской Социалистической Республики (с 30 декабря 1922 года Союза Советских Социалистических Республик) 
+            Сталино — административный центр с апреля 1923 года по 1924 год Юзовского округа, с 1924 года по июнь 1925 года Сталинского округа Донецкой губернии, 
+            с июня 1925 года по июль 1930 года административный центр Сталинского округа, непосредственно подчинённого правительству Украинской ССР. 
+            В 1932 году город стал центром Донецкой области. В 1938 году Донецкая область была разделена на две области: Сталинскую и Ворошиловградскую.
+            
+            Оккупация немецко-фашистскими захватчиками
+            19 октября 1941 года немецкая 1-я танковая армия прорвалась в Сталино. 
+            20 октября 1941 года немецкая 1-я танковая армия заняла город. С 21 октября 1941 года по 8 сентября 1
+            943 года город был оккупирован нацистской Германией. В середине 1942 года шла работа по созданию Генерального комиссариата Сталино, 
+            и передаче его из-под командования военной администрации гражданским властям. Генеральный комиссариат Сталино включал в себя четыре окружных комиссариата: 
+            Мариупольский, Сталинский, Горловский, Ворошиловоградский. Однако, из-за наступления Красной армии от этих планов отказались. 
+            В результате Донбасской наступательной операции Красной Армии в августе — сентябре 1943 года город Сталино был освобождён.</p>
+        <img class="photo" src="LgAAAgH2guA-960.jpg" alt="">
+        <img class="photo" src="M7pLeT0XLmE.jpg" alt="">
+        <img class="photo" src="44667bde9475892b534d28d326015c90.jpg" alt="">
+    </div>
+    <script>
+        function openPage(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+</body>
+</html>
